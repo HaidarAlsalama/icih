@@ -1,0 +1,29 @@
+.show-info-modal {
+    .body-modal{
+
+        /* width for vertical scrollbar */
+        &::-webkit-scrollbar {
+            width: 10px;
+            height: 5px;
+        }
+
+        /* Track for both vertical and horizontal scrollbars */
+        &::-webkit-scrollbar-track {
+            background: #ce121200;
+        }
+
+        /* Handle for both vertical and horizontal scrollbars */
+        &::-webkit-scrollbar-thumb {
+            background: #888888;
+            border-radius: 5px;
+            padding-right: 5px;
+            /* You may need to adjust this based on your design */
+        }
+
+        /* Handle on hover for both vertical and horizontal scrollbars */
+        &::-webkit-scrollbar-thumb:hover {
+            background: #555;
+        }
+
+    }
+}
